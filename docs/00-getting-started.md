@@ -40,6 +40,7 @@ Fresco.initialize(context);
     fresco:placeholderImage="@drawable/my_drawable"
   />
 ```
+（fresco:placeholderImage="@drawable/my_drawable"  这个地方建议不要使用图片，使用某种颜色（灰色即可通用），可以减少内存开销）
 
 开始加载图片
 
